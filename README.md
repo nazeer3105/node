@@ -3,8 +3,8 @@
 **Step 1:** Clone the LambdaTest’s Java-TestNG-Selenium repository and navigate to the code directory as shown below:
 
 ```bash
-git clone https://github.com/nazeer3105/node
-cd node
+git clone https://github.com/LambdaTest/java-selenium-sample.git
+cd java-selenium-sample
 ```
 
 You can also run the command below to check for outdated dependencies.
@@ -22,8 +22,8 @@ Make sure you have your LambdaTest credentials with you to run test automation s
 * For **Linux/macOS**:
   
   ```bash
-  export LT_USERNAME="YOUR_USERNAME" 
-  export LT_ACCESS_KEY="YOUR ACCESS KEY"
+export LT_USERNAME=nazeer31.mohd
+export LT_ACCESS_KEY=r4kngtAUMeN1lITWfy76pxd5O4QoekH89MDofo98s4rbh3xgyN
   ```
   * For **Windows**:
   ```bash

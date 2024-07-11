@@ -6,7 +6,7 @@
 	<artifactId>Java-Selenium-Assignment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
-		<sourceDirectory>Java-Selenium-Assignment/src</sourceDirectory>
+		<sourceDirectory>	Documents/java-testng-selenium-master-master/Java-Selenium-Assignment/src</sourceDirectory>
 		<resources>
 			<resource>
 				<directory>Java-Selenium-Assignment/src</directory>

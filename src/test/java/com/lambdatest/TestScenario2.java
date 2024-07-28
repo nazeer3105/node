@@ -24,8 +24,8 @@ public class TestScenario2 {
     public void setup(Method m, ITestContext ctx) throws MalformedURLException {
         //String username = System.getenv("LT_USERNAME") == null ? "Your LT Username" : System.getenv("LT_USERNAME");
        // String authkey = System.getenv("LT_ACCESS_KEY") == null ? "Your LT AccessKey" : System.getenv("LT_ACCESS_KEY");
-        String username ="nazeer31.mohd";
-        String authkey ="r4kngtAUMeN1lITWfy76pxd5O4QoekH89MDofo98s4rbh3xgyN";
+        String username ="raziya31.mohd";
+        String authkey ="pll0eSKlIQgG3sITtj2eRAJh8vAB4IfST8sHcM9RdhauwrGlw6";
                 String hub = "@hub.lambdatest.com/wd/hub";
 
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -36,7 +36,7 @@ public class TestScenario2 {
         caps.setCapability("video", true);
         caps.setCapability("network", true);
         caps.setCapability("terminal", true);
-        caps.setCapability("build", "Selenium 101 Assignment");
+        caps.setCapability("build", "Selenium 101 Assignment testing");
         caps.setCapability("name", m.getName() + " - " + this.getClass().getName());
         caps.setCapability("plugin", "git-testng");
 
@@ -56,8 +56,6 @@ public class TestScenario2 {
 
         WebElement simpleFormDemo = driver.findElement(By.linkText("Drag & Drop Sliders"));
         simpleFormDemo.click();
-
-        //driver.findElement(By.xpath("//h4[text() =' Default value 15']/../div/input")).sendKeys("95");
         WebElement slider = driver.findElement(By.xpath("//h4[text() =' Default value 15']/../div/input"));
 
 
@@ -68,15 +66,15 @@ public class TestScenario2 {
         String outputValueText=driver.findElement(By.id("rangeSuccess")).getText();
 
         Assert.assertEquals(Integer.parseInt(outputValueText),outputValue);
-        System.out.println("User navigated to correct URL");
-
-
+        System.out.println("User navigated to expected URL");
         Status = "passed";
         Thread.sleep(150);
 
         System.out.println("TestFinished");
 
     }
+
+
 
     @AfterMethod
     public void tearDown() {

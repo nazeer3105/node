@@ -27,8 +27,8 @@ public class TestScenario3 {
     public void setup(Method m, ITestContext ctx) throws MalformedURLException {
         //String username = System.getenv("LT_USERNAME") == null ? "Your LT Username" : System.getenv("LT_USERNAME");
         //String authkey = System.getenv("LT_ACCESS_KEY") == null ? "Your LT AccessKey" : System.getenv("LT_ACCESS_KEY");
-        String username ="nazeer31.mohd";
-        String authkey ="r4kngtAUMeN1lITWfy76pxd5O4QoekH89MDofo98s4rbh3xgyN";
+        String username ="raziya31.mohd";
+        String authkey ="pll0eSKlIQgG3sITtj2eRAJh8vAB4IfST8sHcM9RdhauwrGlw6";
         String hub = "@hub.lambdatest.com/wd/hub";
 
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -70,13 +70,13 @@ public class TestScenario3 {
 
         driver.executeScript("lambdatest_executor: {\"action\": \"stepcontext\", \"arguments\": {\"data\": \"Entering all the details\", \"level\": \"info\"}}");
         WebElement nameWebEle= driver.findElement(By.id("name"));
-        nameWebEle.sendKeys("Nazeer");
+        nameWebEle.sendKeys("Raziya");
         WebElement emailWebEle= driver.findElement(By.id("inputEmail4"));
-        emailWebEle.sendKeys("nazeer31.mohd@gmail.com");
+        emailWebEle.sendKeys("raziya31.mohd@gmail.com");
         WebElement passwordWebEle= driver.findElement(By.id("inputPassword4"));
         passwordWebEle.sendKeys("LamdaTesting123");
         WebElement companyWebEle= driver.findElement(By.id("company"));
-        companyWebEle.sendKeys("Google");
+        companyWebEle.sendKeys("Infosys");
 
         WebElement websiteWebEle= driver.findElement(By.id("websitename"));
         websiteWebEle.sendKeys("https://www.lambdatest.com/");
@@ -88,14 +88,14 @@ public class TestScenario3 {
         WebElement cityWebEle= driver.findElement(By.id("inputCity"));
         cityWebEle.sendKeys("Hyderabad");
         WebElement add1WebEle= driver.findElement(By.id("inputAddress1"));
-        add1WebEle.sendKeys("BHEL");
+        add1WebEle.sendKeys("Hitech city");
         WebElement add2WebEle= driver.findElement(By.id("inputAddress2"));
         add2WebEle.sendKeys("Hyderabad");
 
         WebElement stateWebEle= driver.findElement(By.id("inputState"));
         stateWebEle.sendKeys("Telangana");
         WebElement zipWebEle= driver.findElement(By.id("inputZip"));
-        zipWebEle.sendKeys("502032");
+        zipWebEle.sendKeys("500072");
 
         driver.executeScript("lambdatest_executor: {\"action\": \"stepcontext\", \"arguments\": {\"data\": \"Submitting form\", \"level\": \"info\"}}");
         submitWebEle.click();
@@ -104,7 +104,7 @@ public class TestScenario3 {
         WebElement successEle=driver.findElement(By.xpath("//p[@class=\"success-msg hidden\"]"));
         Assert.assertEquals(successEle.getText(),successMsg);
         Status = "passed";
-        Thread.sleep(800);
+        Thread.sleep(1000);
 
         System.out.println("TestFinished");
 

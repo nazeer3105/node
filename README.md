@@ -77,3 +77,4 @@ Once you are able to connect **LambdaTest Tunnel** successfully, you would just 
 DesiredCapabilities capabilities = new DesiredCapabilities();        
         capabilities.setCapability("tunnel", true);
 ```
+# Automation

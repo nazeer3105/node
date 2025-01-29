@@ -55,9 +55,9 @@ public class TestNGScenario3 {
         javascriptAlertsLink.click();
 
         // Step 3: Click the “Click Me” button in the “JavaScript Alerts” section
-        WebElement alertButton = driver.findElement(By.xpath("//button[text()='Click Me']"));
+        WebElement alertButton = driver.findElement(By.xpath("(//*[text()='Click Me'])[1]"));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.tagName("body")));
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("(//*[text()='Click Me'])[1]")));
         alertButton.click();
 
         // Step 4: Validate the alert message and click OK

@@ -28,8 +28,8 @@ public class TestNGScenario3 {
     @BeforeMethod
     @Parameters({"browser", "url"})
     public void setup(@Optional("chrome") String browser, @Optional("https://www.lambdatest.com/selenium-playground/") String url, Method m) throws MalformedURLException {
-        String username = "nazeer90.mohd"; // Your LambdaTest username
-        String authkey = "24PIO20uMV8tXcANG8xP6vFbcGsyE1rTjrjM7GtbyblvmID0rT";
+        String username = "nazeer05.mohdd"; // Your LambdaTest username
+        String authkey = "PW5lGwHy0iTl90RuSqHbbZGJNTWWBIF0Go0pfXObDSCqS9ynK3";
         String hub = "@hub.lambdatest.com/wd/hub";
 
         DesiredCapabilities caps = new DesiredCapabilities();

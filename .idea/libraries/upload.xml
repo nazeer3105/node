@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="upload">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/test/fixtures/wpt/FileAPI/filelist-section/support/upload.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

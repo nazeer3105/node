@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="data">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/Parent Dir Same Name As File.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/test_mismatch_size.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/Wrong CRC.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/test.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/empty.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/test_nocompress.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/Repeated File Name.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/Repeated Dir Name.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/Mixed Paths.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/Windows Special Names.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/Repeated File Name With Different Cases.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/SJIS Bug 846195.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/evil.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/test_posix_permissions.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/evil_via_invalid_utf8.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/test_encrypted.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/evil_via_absolute_file_name.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/Different Encryptions.zip!/" />
+      <root url="jar://$PROJECT_DIR$/deps/zlib/google/test/data/Empty Dir Same Name As File.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

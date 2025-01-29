@@ -17,8 +17,8 @@ public class SeleniumJavaScenario2 {
 
         try {
             // LambdaTest credentials
-            String username = "nazeer90.mohd"; // Your LambdaTest username
-            String authkey = "24PIO20uMV8tXcANG8xP6vFbcGsyE1rTjrjM7GtbyblvmID0rT";
+            String username = "nazeer05.mohdd"; // Your LambdaTest username
+            String authkey = "PW5lGwHy0iTl90RuSqHbbZGJNTWWBIF0Go0pfXObDSCqS9ynK3";
             String hub = "@hub.lambdatest.com/wd/hub"; // LambdaTest hub URL
 
             // DesiredCapabilities for Safari on MacOS Catalina

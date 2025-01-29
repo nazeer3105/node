@@ -3,12 +3,15 @@ package com.lambdatest;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -53,6 +56,8 @@ public class TestNGScenario3 {
 
         // Step 3: Click the “Click Me” button in the “JavaScript Alerts” section
         WebElement alertButton = driver.findElement(By.xpath("//button[text()='Click Me']"));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.tagName("body")));
         alertButton.click();
 
         // Step 4: Validate the alert message and click OK
